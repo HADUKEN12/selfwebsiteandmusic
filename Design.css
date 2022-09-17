@@ -1,0 +1,97 @@
+<style>
+
+.bg {
+  
+}
+h1 {
+  color: blue;
+  font-size: 300%;
+  font-family: "Roboto", sans-serif; 
+  text-align: center;    
+}    
+   
+p {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+.button2 {
+  background-color: white;
+  color: black;
+  border: 2px solid #5CB8E4;
+  margin-right: 10px;    
+}
+
+.button2:hover {
+  background-color: #5CB8E4;
+  color: white;
+}
+
+.button3 {
+  background-color: white;
+  color: black;
+  border: 2px solid #AF0171;
+}
+
+.button3:hover {
+  background-color: #AF0171;
+  color: white;
+} 
+h2{
+    font-family: 'Courier New', monospace;
+    color: white;
+    text-align: center;
+}
+div.absolute {
+  position: absolute;
+  top: 97px;
+  right: 35px;
+  width: 600px;
+  height: 490px;
+  text-align: center;
+  
+  background-color: black;
+}
+h1 {
+  color: blue;
+  font-size: 300%;
+  font-family: "Roboto", sans-serif; 
+  text-align: center;    
+}
+.rectangle {
+  height: 490px;
+  width: 600px;
+  background-color: #54BAB9;
+  border: 1px solid black;    
+      
+}
+.music {
+  height: inherit;
+  width: inherit;
+  
+  border: 1px solid black;    
+      
+}
+.text {
+  text-align: center;   
+  font-family: "Roboto", sans-serif;
+  color: white;
+  background-color: #002B5B;
+    
+}
+    </style> 
