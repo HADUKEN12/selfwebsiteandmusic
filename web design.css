@@ -1,0 +1,237 @@
+<style>
+ 
+.simula{
+    text-align: center;
+}
+div {
+  border: 10px 50px;    
+  border-radius: 25px;
+  background-color: lightblue;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;    
+}
+  input[type=text] {
+  float: left;
+  margin-left: 2px; 
+  margin-right: 100px;
+  width: 30%;
+  right: 0;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;      
+  background-color: white;
+  
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
+  input[type=text]:focus {
+  width: 40%;
+}
+        
+  h3{
+    text-align: center;
+}
+        
+.search{
+  border: 10px 50px;    
+  border-radius: 25px;
+  background-color: teal;
+  padding: 27px;
+  font-family: "Roboto", sans-serif;  
+        }  
+.btn2,.btn4{
+  padding: 15px 25px; 
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn2:hover ,.btn4:hover
+        {background-color: #3e8e41}
+
+   
+.container{
+    padding: 40px;
+    border-radius: 25px;
+    background-color: crimson;
+    margin-top: 20px;
+}
+
+.content{
+  
+  width: 45%;
+  border-radius: 25px;
+  float: left;
+  background-color: #5CB8E4;
+  padding: 27px;
+  font-family: "Roboto", sans-serif;       
+        }  
+.location{
+    margin-left: 55%;
+    font-size: 23px;
+    display: flex;
+    font-family: "Roboto", sans-serif;  
+}
+
+
+.btn1,.btn3 {
+  appearance: button;
+  background-color: #1899D6;
+  border: solid transparent;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 15px 25px;
+  font-size: 24px;      
+  border-radius: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  box-shadow: 0 9px #999;    
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn1:after,.btn3:after {
+  background-clip: padding-box;
+  background-color: #1CB0F6;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.btn1:main,.btn3:main,
+.btn1:focus,.btn3:focus {
+  user-select: auto;
+}
+
+.btn1:hover:not(:disabled) ,.btn3:hover:not(:disabled){
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.btn1:disabled,.btn3:disabled {
+  cursor: auto;
+}
+
+.btn2,.btn4 {
+  appearance: button;
+  background-color: #FF8787;
+  border: solid transparent;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 15px 25px;
+  font-size: 24px;      
+  border-radius: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transform: translateZ(0);
+  transition: filter .2s;
+  user-select: none;
+  box-shadow: 0 9px #999;    
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.btn2:after,.btn4:after {
+  background-clip: padding-box;
+  background-color: #FF8787;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  bottom: -4px;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.btn2:main,.btn4:main,
+.btn2:focus,.btn4:focus {
+  user-select: auto;
+}
+
+.btn2:hover:not(:disabled) ,.btn4:hover:not(:disabled){
+  filter: brightness(1.1);
+  -webkit-filter: brightness(1.1);
+}
+
+.btn2:disabled,.btn4:disabled {
+  cursor: auto;
+}
+
+.txtwithimg {
+ display: table;
+ padding: 40px;
+ border-radius: 25px;
+ background-color: #B1B2FF;
+ margin-top: 20px;
+ width: 90%;
+ 
+}
+
+.img {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+span {
+  vertical-align: middle;
+  display: table-cell;
+  text-align: center;
+  margin-left: 30px;
+}
+
+footer {
+  margin-top: 20px; 
+  border-radius: 3000px;
+  background-color: #C689C6;
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;    
+} 
+
+
+
+
+</style>
